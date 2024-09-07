@@ -6,11 +6,10 @@ import 'firebase_options.dart';
 var width;
 var height;
 
-Future<void> main()  async {
-    Firebase.initializeApp(
-
-  );
-  runApp(const MyApp());
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {

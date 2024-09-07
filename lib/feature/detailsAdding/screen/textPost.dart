@@ -67,16 +67,6 @@ class _TextPostState extends State<TextPost> {
     }
   }
 
-  // addData(){
-  //   FirebaseFirestore.instance.collection("user").add({
-  //     "text":_textController.text,
-  //
-  //   }).then((value){
-  //     value.update({
-  //       "id":value.id,
-  //     });
-  //   });
-  // }
 
 
 
@@ -99,13 +89,9 @@ class _TextPostState extends State<TextPost> {
             ElevatedButton(onPressed: () {
               _sharePost();
 
-              // addData();
-              //
+              addData();
 
-
-
-
-            },
+              },
               child: Column(
                 children: [
                   Icon(Icons.share),
@@ -113,11 +99,6 @@ class _TextPostState extends State<TextPost> {
                 ],
               )
 
-              // onPressed:
-              //     addData(),
-              // _sharePost,
-              // icon: Icon(Icons.share),
-              // label: Text('Share'),
             ),
           ],
         ),

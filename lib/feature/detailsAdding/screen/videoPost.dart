@@ -63,7 +63,6 @@ class _VideoPostState extends State<VideoPost> {
                 height: height*0.5,
                 width: width*0.8,
                 decoration: BoxDecoration(
-                  color: Colors.red,
                   borderRadius: BorderRadius.circular(width*0.03)
                 ),
                 child: _videoFile != null && _videoController!.value.isInitialized

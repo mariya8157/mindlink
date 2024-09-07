@@ -50,7 +50,6 @@ class _ImagePostState extends State<ImagePost> {
                 height: height*0.5,
                 width: width*0.8,
                 decoration: BoxDecoration(
-                    color: Colors.red,
                     borderRadius: BorderRadius.circular(width*0.03)
                 ),
                 child: _imageFile != null
