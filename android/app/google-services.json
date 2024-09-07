@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "644078765192",
+    "project_id": "mindlink-fe376",
+    "storage_bucket": "mindlink-fe376.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:644078765192:android:5b9c1f59f6b41dbbca8b3d",
+        "android_client_info": {
+          "package_name": "com.example.mindlink"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB84xBClkNDp0X5rlwoF6GcXZFdvL4ULyI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
